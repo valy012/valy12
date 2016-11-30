@@ -315,7 +315,7 @@ function create_config( )
     "jomlak",
     "admin"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {298387273,182948884,282834747,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -327,6 +327,7 @@ function create_config( )
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
    !feedback (your ideas and messages)
 ]],
+
     help_text = [[
 Creed bots Help for mods : 😈
 Plugins : 🔻
@@ -511,7 +512,9 @@ will tag users©
 
 You Can user both "!" & "/" for them🎧
 میتوانید از دو شکلک !  و / برای دادن دستورات استفاده کنید
+		 پیام بدید @SUDO_KHOF برای خرید به ایدی
 ]]
+
 
   }
   serialize_to_file(config, './data/config.lua')
